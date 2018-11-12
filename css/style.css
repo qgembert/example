@@ -1,0 +1,96 @@
+body, html {
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+a {
+	text-decoration: none;
+}
+header { border: 5px solid rgba(0, 0, 0, 0.5);
+		padding:5px;
+		margin:10px;
+		color:black;
+		text-shadow: 2px 3px white;
+		text-align:center;		
+}
+.main-header {
+	display:grid;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: px;
+	grid-template-columns:1fr;
+	color: black;
+}
+
+#menu-right {
+	list-style: none;
+	display: grid;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display:grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-bottom: 10px;
+}
+.button {
+	background-color:#000000;
+	color: white;
+	padding: 10px 25px;
+	
+}
+.button:hover {
+	background: 	#696969;
+	color: black;
+	
+}
+
+.pimg1, .pimg2, .pimg3 {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	z-index: 0;
+}
+
+.pimg1 {
+	min-height: 100%;
+	background-image: url(../images/1.jpg);
+}
+
+.pimg2 {
+	min-height: 600px;
+	background-image: url(../images/2.jpg);	
+}
+
+.pimg3 {
+	min-height: 100%;
+	background-image: url(../images/3.jpg);
+}
+
+.ptext {
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#fff;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.border {
+	background-color: #555;
+	padding: 20px;
+}
+
+section {
+	padding: 80px 50px;
+}
